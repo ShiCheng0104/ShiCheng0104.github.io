@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>施诚的网页作业</title>
+	<style>
+.con {
+    position: relative;
+}
+.nav > li {
+    display: inline;
+    float:left;
+}
+.nav li a {
+    color: #FFFF0F;
+    display: block;
+    line-height: 20px;
+    padding: 15px 30px 15px 160px;
+}
+.con:hover {
+    cursor: pointer;
+}
+.con:hover .con-box{
+     transform: translateZ(-25px) rotateX(90deg);
+}
+.con-box {
+     transition: all .3s ease-out;
+    transform: translatez(-25px);
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.cont {
+    transform: rotatex(0deg) translatez(25px);
+}
+.back {
+    transform: rotatex(-90deg) translatez(25px);
+    color: #BD06DE;
+}
+.cont, .back {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#091658;  
+    padding: 15px 30px 15px 31px;
+    color: white;
+    box-sizing: border-box;
+}
+.nav li a:hover .cont,  
+.nav li a:hover .back {
+    background-color:#4A6DC0;
+}
+
+		.hero {
+    position: relative;
+}
+
+		.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    *zoom: 1;
+}
+		
+		.container:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+.button, form input[type="submit"], form button, form input[type="reset"] {
+    display: inline-block;
+    background: #ecb540;
+    background: -webkit-linear-gradient(#FFF65B, #ec8940);
+    background: linear-gradient(#FFF65B, #ec8940);
+    border-bottom: 1px solid #e26d17;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #86450c;
+}
+a {
+    text-decoration: none;
+    color: #4a3173;
+}
+		
+a {
+    background: transparent;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+.text-center {
+    text-align: center;
+}
+		
+body {
+	background-image: url(image/changsha.jpg);
+	background-size: 100%;
+	color: #605555;
+	font-family: "Belgrano", "Roboto Slab", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: normal;
+	margin: 0;
+	display: block;
+	background-repeat: no-repeat;
+}
+	body,td,th {
+	font-family: Belgrano, "Roboto Slab", sans-serif;
+}
+    </style>
+	
+</head>
+
+<body>
+	
+	<div class="hero">
+		<div class="container">
+<!--		<div class="text-center">-->
+			<span style="top:100px;position: absolute;">
+			<a href="http://rain-talk.gitee.io/dormitory/" class="button">返回寝室主页</a></span>
+<!--		</div>-->
+		</div>
+	</div>
+	
+<span style="text-align: center">	
+<div>
+		<ul class="nav">
+    		<li><a href="web/index.html" class="con"> 0000 <span class="con-box"><span class="cont">个人首页</span><span class="back"><span style="font-size: 21px">Let's go back!</span></span>
+    </span> </a></li>
+    <li><a href="web/FENYE1.html" class="con"> 1111 <span class="con-box"><span class="cont">长沙简介</span><span class="back"><span style="font-size: 21px">Changsha!</span></span></span> </a></li>
+    <li><a href="web/FENYE2.html" class="con"> 1111 <span class="con-box"><span class="cont">风景名胜</span><span class="back"><span style="font-size: 21px">Scenic spot</span></span></span> </a></li>
+    <li><a href="web/FENYE3.html" class="con"> 1111 <span class="con-box"><span class="cont">特色美食</span><span class="back"><span style="font-size: 21px">Delicious foods!</span></span></span> </a></li>
+    <li><a href="web/FENYE4.html" class="con"> 1111 <span class="con-box"><span class="cont">出行计划</span><span class="back"><span style="font-size: 21px">My plan！</span></span></span> </a></li>
+  </ul>
+</div>
+</span>	
+	
+<span style="top: 700px; bottom: 50px; font-size: 100px; left: 1000px; right: 200px; position: absolute; text-align：right;color: #FCBD4B; font-family: 华文新魏">
+	<br>长沙之旅<br><br>
+	
+</span>
+	
+</body>
+</html>
